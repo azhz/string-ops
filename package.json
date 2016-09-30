@@ -1,0 +1,14 @@
+{
+  "name": "string-ops",
+  "version": "1.0.0",
+  "description": "A string library for all the operations that can be done on strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "string"
+  ],
+  "author": "Ajinkya Hingne",
+  "license": "ISC"
+}

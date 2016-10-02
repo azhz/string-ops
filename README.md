@@ -17,4 +17,4 @@ This section will be updated once package is released.
 
 ## License 
 
-string-ops.js is distributed under the [MIT](https://github.com/azhz/string-ops.js/blob/master/LICENSE) license.
+string-ops.js is distributed under the [MIT](https://github.com/azhz/string-ops/blob/master/LICENSE) license.

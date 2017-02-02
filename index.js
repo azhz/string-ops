@@ -67,3 +67,17 @@ exports.containsWhitespace = function(src) {
 exports.deleteWhitespace = function(src) {
     return src.replace(/\s/g, '');
 };
+
+/**
+ * Function to check string equality
+ */
+exports.equals = function(firstStr, secondStr) {
+    return firstStr == secondStr;
+}
+
+/**
+ * Function to check string equality ignoring case
+ */
+exports.equalsIgnoreCase = function(firstStr, secondStr) {
+    return firstStr.toLowerString() == secondStr.toLowerCase();
+}

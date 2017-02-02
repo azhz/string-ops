@@ -79,5 +79,5 @@ exports.equals = function(firstStr, secondStr) {
  * Function to check string equality ignoring case
  */
 exports.equalsIgnoreCase = function(firstStr, secondStr) {
-    return firstStr.toLowerString() == secondStr.toLowerCase();
+    return firstStr.toLowerCase() == secondStr.toLowerCase();
 }

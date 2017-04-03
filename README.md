@@ -16,9 +16,7 @@ This package is not yet released on npm so you won't be able to ```npm install``
 This section will be updated once package is released.
 
 ## To-Do
-1. Capitalize - To return the current String with the first letter changed to title case.
-2. Format - To treat the current string as a pattern that should be used for substitution.
-3. Repeat - To return the current String repeated the specified number of times using the specified separator to separate the repeated Strings.
+-- To be added more
 
 ## License
 

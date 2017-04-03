@@ -81,3 +81,33 @@ exports.equals = function(firstStr, secondStr) {
 exports.equalsIgnoreCase = function(firstStr, secondStr) {
     return firstStr.toLowerCase() == secondStr.toLowerCase();
 }
+
+/**
+ * Function to repeat the given string for number of characters with given separator
+ */
+exports.repeat = function(value, count, separator) {
+	if(!separator) {
+		return value.repeat(count);
+	}
+	var repeatedString = value;
+	for(var i = 0; i < count - 1; i++) {
+		repeatedString += separator + value;
+	}
+	return repeatedString;
+}
+
+/**
+ * Function to format a string by replacing placeholders with given strings
+ *
+ * Example: var str = 'Hi, {0}. {1} is awesome!';
+ *			var values = ['Foo', 'Bar'];
+ *			var formattedString = s.format(str, values);
+ *			formattedString will contain - 'Hi, Foo. Bar is awesome!'
+ */
+exports.format = function(value, formattingStrings) {
+	var formattedString = value;
+	for(var i = 0; i < formattingStrings.length; i++) {
+		formattedString = formattedString.replace('{'+i+'}', formattingStrings[i]);
+	}
+	return formattedString;
+}
